@@ -1,0 +1,256 @@
+/* all custom styles for seventh son March 2012 */
+
+
+/* ------------
+background's for sections are in jQuery
+------------ */
+
+/* loading message */
+#loader {
+	position: absolute;
+	top:100px;
+	left:50%;
+	width:100px;
+	margin-left: -50px;
+}
+
+/* main header */
+#logoTop {
+	padding:10px 0 25px 0;
+}
+
+/* man navigation float */
+#NavBlock {
+	position: relative;
+}
+
+#NavStore { /* store only */
+	margin-bottom: 30px;
+	background:#1d1d1d;
+	border-bottom:1px dotted #888;
+}
+
+/* main navigation  STICKY */
+#sticky {
+	height:50px;
+	width:100%;
+	z-index: 1;
+	background:#1d1d1d;
+	border-top:1px dotted #888;
+	border-bottom:1px dotted #888;
+	padding-bottom:26px;
+}
+
+#sticky.stick {
+	width:100%;
+	height:50px;
+	position: fixed;
+	top: 0;
+	z-index: 1;
+}
+
+#nav li {
+	display: inline;
+	padding:0 5px;
+	white-space:nowrap; /* if text links */
+}
+#nav li a {
+	text-decoration: none;
+	font-style: italic;
+	display:inline-block;
+	padding:29px 0;
+	color:#b4a186;
+}
+#nav li a:hover {
+	color:#fff;
+}
+#nav li a.on {
+/* 	border-bottom: 1px dotted #fff; */
+	background: transparent url(../_img/_bgs/nav_highlight_bg.jpg) 0 27px repeat-x;
+	color:#fff;
+}
+#nav li a#toTop {
+	background: transparent url(../_img/_bgs/top_icon.jpg) 0 15px no-repeat;
+	width:50px;
+}
+
+
+/* tumblr stuff */
+#postDate, #newsDate, #scheduleDate, #pressDate, #merchDate {
+	font-style: italic;
+	color: #b4a186;
+}
+
+
+/* store page stuff */
+.merchItem {
+	padding-bottom: 15px!important;
+	border:1px solid #333;
+	background: #1d1d1d;
+}
+
+.merchImg {
+	position: relative;
+	background:  transparent url(../_img/_new-store/hover_plus.jpg) no-repeat top center;
+}
+.merchImg a:hover {
+	opacity: .55;
+	filter:alpha(opacity=55); /* For IE8 and earlier */
+}
+.merchImg img {
+	width:100%;
+}
+.merchImg .overlay {
+	position: absolute;
+	top:0;
+	left:0;
+}
+
+.merchItem p {
+	margin-top:10px;
+}
+.merchItem table {
+	text-align: center;
+	margin:0 auto!important;
+}
+.contactButn {
+	font-family:sans-serif;
+	font-size: 12px;
+	color:#aaa;
+	background: #333;
+	padding:8px 12px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+
+input.payPalButn {
+	width:103px;
+	height:29px;
+	background: url(../_img/_new-store/paypal_butn.png) 0 0 no-repeat!important;
+	text-indent: -1000px;
+	border:0px;
+	
+}
+input.payPalButn:hover {
+	background: url(../_img/_new-store/paypal_butn.png) 0 -29px no-repeat!important;
+	border:0px;
+}
+
+
+
+/* all containers */
+.container {
+	padding-bottom: 5px;
+}
+.nopad {
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+/* header divider's */
+.divHeader, .divHeaderTop {
+	border-top:1px dotted #888;
+	border-bottom:1px dotted #888;
+	padding:35px 0 20px 0;
+}
+.divHeaderTop {
+	border-top:0;
+}
+h1 ins {
+	color:#fff;
+	text-decoration: none !important;
+	position: relative;
+	top:3px;
+}
+h1 span {
+	color:#fff;
+	font-style: italic;
+}
+
+
+/* 	faq section - so math works correctly based on viewport, not hidden content  */
+#fqSection {
+	overflow: hidden;
+}
+
+/* round images */
+/* opacity animation is in jquery_functions */
+.circular {
+	width: 230px;
+	height: 230px;
+	border-radius: 115px;
+	-webkit-border-radius: 115px;
+	-moz-border-radius: 115px;
+	margin: 0 auto!important;
+}
+.circleStroke {
+	position: relative;
+	margin: 0 auto!important;
+	width: 230px;
+	height: 230px;
+	border-radius: 115px;
+	-webkit-border-radius: 115px;
+	-moz-border-radius: 115px;
+	background:#fff;
+	padding:2px;
+}
+
+.circularSm {
+	width: 190px;
+	height: 190px;
+	border-radius: 95px;
+	-webkit-border-radius: 95px;
+	-moz-border-radius: 95px;
+	margin: 0 auto!important;
+}
+
+.circleStrokeSm {
+	position: relative;
+	margin: 0 auto!important;
+	width: 190px;
+	height: 190px;
+	border-radius: 95px;
+	-webkit-border-radius: 95px;
+	-moz-border-radius: 95px;
+	background:#fff;
+	padding:2px;
+}
+
+/* footer */
+.footer {
+	padding-top:30px;
+	font-size:90%;
+}
+
+.footer img { /* align bug images in footer */
+	padding-right:5px;
+	position: relative;
+	top:5px;
+}
+
+#footer {
+	color:#5f5f5f;
+	padding-bottom:15px;
+	font-size:90%;
+}
+
+
+
+
+/* misc */
+.hide {
+	display:none;
+}
+
+.hrFull {
+	border-top:1px dotted #888;
+	font-size: 1px;
+	line-height: 1px;
+	height: 1px;
+}
+.clear {
+	clear:both;
+}
+
+

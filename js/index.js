@@ -34,4 +34,10 @@ $(document).ready(function() {
 		}
 	});
 
+	$(".answer").hide(); // hide the answer divs first
+    
+    $(".question").click(function() {
+        $(this).next(".answer").slideToggle();
+    });
+
 });

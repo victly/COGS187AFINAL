@@ -259,4 +259,7 @@ h1 span {
 	clear:both;
 }
 
-
+.description {
+	display: none;
+	width: 600px;
+}

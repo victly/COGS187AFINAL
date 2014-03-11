@@ -74,6 +74,10 @@ background's for sections are in jQuery
 	width:50px;
 }
 
+/* About section */
+a h5:hover {
+	color: #E8DCCA;
+}
 
 /* tumblr stuff */
 #postDate, #newsDate, #scheduleDate, #pressDate, #merchDate {
@@ -241,7 +245,9 @@ h1 span {
 	font-size:90%;
 }
 
-
+.circleStroke a img:hover {
+	opacity: 0.75;
+}
 
 
 /* misc */

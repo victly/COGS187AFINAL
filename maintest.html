@@ -77,11 +77,13 @@
       <!--End Main Header -->
       <!-- Main nav sticky -->
       <div id="Nav" class="sixteen columns">
-        <div id="sticky-anchor"></div>
         <div id="sticky" class="">
           <ul id="nav">
             <li>
-              <a href="#top" id="toTop">&nbsp;</a>
+              <a href="#top" id="toTop">HOME</a>
+            </li>
+            <li>
+              <a href="#about" id="aboutLink">ABOUT</a>
             </li>
             <li>
               <a href="#studio" id="studioLink" class>STUDIO</a>
@@ -97,9 +99,9 @@
       </div>
       <!--End nav sticky -->
       <!-- Studio begins -->
-      <div id="aboutSection">
+      <a name="about"></a>
+      <div id="aboutSection" class="content">
         <div class="sixteen column divHeaderTop">
-          <a name="studio"></a>
           <h1>
             ABOUT
             <ins>/</ins>
@@ -139,10 +141,11 @@
       </div>
       <!-- End Studio -->
       <!-- Current Events begins -->
-      <div id="currentSection">
+      <a name="studio"></a>
+      <div class="padding"></div>      
+      <div id="currentSection" class="content">
         <div class="stretchMe" data-stretch="images/current_bg.jpg">
           <div class="sixteen columns divHeader">
-            <a name="studio"></a>
             <h1>
               CURRENT 
               <ins>/</ins> 
@@ -205,10 +208,11 @@
       </div>
       <!-- End Current Events -->
       <!-- Artists begins --> 
-      <div id="artistSection">
+      <a name="artists"></a>  
+      <div class="padding"></div>            
+      <div id="artistSection" class="content">
         <div class="stretchMe" data-stretch="images/twinkle_twinkle.png">
           <div class="sixteen column divHeader">
-            <a name="artists"></a>
             <h1>
               STYLE 
               <ins>/</ins> 
@@ -356,10 +360,11 @@
       <!-- Style ends-->
 
       <!--FAQ starts -->
-      <div id="fqSection">
+      <a name="fq"></a>    
+      <div class="padding"></div>        
+      <div id="fqSection" class="content">
         <div class="stretchMe" data-stretch="images/faq_bg.jpg">
           <div class="sixteen columns divHeader">
-            <a name="fq"></a>
             <h1>
               FAQ
               <ins>/</ins>
@@ -599,8 +604,9 @@
     <!-- Testing JS -->
 
     <script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
-    <script type="text/javascript" src="js/tabs.js"></script>
+    <!--<script type="text/javascript" src="js/tabs.js"></script>-->
     <script type="text/javascript" src="js/jquery.anystretch.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
 
     <script>
         $(".stretchMe").anystretch();

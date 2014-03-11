@@ -359,4 +359,11 @@
 	.add-bottom { margin:0 0 20px 0 !important; }
 	.add-bottom-top { margin: 20px 0 !important; }
 
-
+	.sticky {
+		position: fixed;
+		width: 100%;
+		left: 0;
+		top: 0;
+		z-index: 100;
+		border-top: 0;
+	}

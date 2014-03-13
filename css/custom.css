@@ -195,6 +195,7 @@ h1 span {
 	-moz-border-radius: 115px;
 	margin: 0 auto!important;
 }
+
 .circleStroke {
 	position: relative;
 	margin: 0 auto!important;
@@ -276,3 +277,9 @@ h1 span {
 	cursor: pointer;
 }
 
+h5, h4
+{
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}

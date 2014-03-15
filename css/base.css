@@ -83,7 +83,7 @@
 	p.lead { font-size: 21px; line-height: 27px; color: #777;  }
 
 	em { font-style: italic; }
-	strong { font-weight: bold; color: #333; }
+	strong { font-weight: bold; color: #fff; }
 	small { font-size: 80%; margin-bottom:10px; display: block; color:#b4a186;}
 	
 	sub, sup { font-size: 70%; vertical-align: text-top; }
@@ -100,7 +100,7 @@
 
 /* #Links beigh #b4a186
 ================================================== */
-	a, a:visited, a:focus { color: #fff; text-decoration: none; outline: 0; }
+	a, a:visited, a:focus { color: #b4a186; text-decoration: none; outline: 0; }
 	a:hover, a:visited:hover, a.on { color: #b4a186; }
 	p a, p a:visited { line-height: inherit; }
 	

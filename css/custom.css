@@ -191,7 +191,8 @@ h1 span {
 
 h6, h5, h4
 {
-	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-weight: 400;
 	text-transform: uppercase;
+	font-family: "Open Sans", Helvetica Neue, Helvetica, sans-serif;
 	letter-spacing: 2px;
 }

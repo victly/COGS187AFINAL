@@ -53,7 +53,7 @@
 ================================================== */
 	body {
 		background: #1d1d1d url(../_img/_bgs/pattern.gif) repeat;
-		font-family: 'Georgia', serif;
+		font-family: 'Crimson', serif;
 		font-size: 15px;
 		line-height: 18px;
 		font-weight: 400;
@@ -78,7 +78,7 @@
 	h6 { font-size: 14px; line-height: 21px; }
 	.subheader { color: #777; }
 
-	p { margin: 0 0 10px 0; }
+	p { margin: 0 0 12px 0; font-family: 'Crimson Text', serif;}
 	p img { margin: 0; }
 	p.lead { font-size: 21px; line-height: 27px; color: #777;  }
 

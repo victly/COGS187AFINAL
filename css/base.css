@@ -78,7 +78,7 @@
 	h6 { font-size: 14px; line-height: 21px; }
 	.subheader { color: #777; }
 
-	p { margin: 0 0 12px 0; font-family: 'Crimson Text', serif;}
+	p { margin: 0 0 10px 0; font-family: 'Crimson Text', serif; font-size: 16px;}
 	p img { margin: 0; }
 	p.lead { font-size: 21px; line-height: 27px; color: #777;  }
 

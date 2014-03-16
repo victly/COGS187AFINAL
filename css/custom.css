@@ -245,5 +245,9 @@ h6, h5, h4
 	color: gray;
 	margin:auto;
 	margin-top: 15px;
+}
 
+.content-list li {
+	padding: 0px;
+	margin: 2px 0px;
 }

@@ -67,6 +67,15 @@ a h5:hover {
 	cursor: pointer;
 }
 
+/* Side nav */
+.sidenav ul li a {
+	color: #fff;
+}
+
+.sidenav ul li a:hover {
+	color: #b4a186;
+}
+
 /* all containers */
 .container {
 	padding-bottom: 5px;

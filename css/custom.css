@@ -134,8 +134,8 @@ h1 span {
 }
 
 .thumb {
-	width: 150px;
-	height: 150px;
+	width: 200px;
+	height: 200px;
 	border-radius: 115px;
 	-webkit-border-radius: 115px;
 	-moz-border-radius: 115px;
@@ -157,8 +157,8 @@ h1 span {
 .circleStrokeThmb {
 		position: relative;
 	margin: 0 auto!important;
-	width: 150px;
-	height: 150px;
+	width: 200px;
+	height: 200px;
 	border-radius: 115px;
 	-webkit-border-radius: 115px;
 	-moz-border-radius: 115px;
@@ -247,8 +247,4 @@ h6, h5, h4
 	margin:auto;
 	margin-top: 15px;
 
-}
-
-.breadcrumbs {
-	font-weight: 700;
 }

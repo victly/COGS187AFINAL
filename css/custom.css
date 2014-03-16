@@ -76,6 +76,12 @@ a h5:hover {
 	color: #b4a186;
 }
 
+
+.sidenav ul .sideCurrent {
+	color: #9C9C9C;
+	font-style: italic;
+}
+
 /* all containers */
 .container {
 	padding-bottom: 5px;
@@ -127,11 +133,32 @@ h1 span {
 	margin: 0 auto!important;
 }
 
+.thumb {
+	width: 150px;
+	height: 150px;
+	border-radius: 115px;
+	-webkit-border-radius: 115px;
+	-moz-border-radius: 115px;
+	margin: 0 auto!important;
+}
+
 .circleStroke {
 	position: relative;
 	margin: 0 auto!important;
 	width: 230px;
 	height: 230px;
+	border-radius: 115px;
+	-webkit-border-radius: 115px;
+	-moz-border-radius: 115px;
+	background:#fff;
+	padding:2px;
+}
+
+.circleStrokeThmb {
+		position: relative;
+	margin: 0 auto!important;
+	width: 150px;
+	height: 150px;
 	border-radius: 115px;
 	-webkit-border-radius: 115px;
 	-moz-border-radius: 115px;

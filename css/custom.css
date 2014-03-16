@@ -213,3 +213,15 @@ h6, h5, h4
 	font-family: "Open Sans", Helvetica Neue, Helvetica, sans-serif;
 	letter-spacing: 2px;
 }
+
+.short {
+	max-width: 40px;
+	color: gray;
+	margin:auto;
+	margin-top: 15px;
+
+}
+
+.breadcrumbs {
+	font-weight: 700;
+}

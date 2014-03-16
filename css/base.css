@@ -101,7 +101,7 @@
 /* #Links beigh #b4a186
 ================================================== */
 	a, a:visited, a:focus { color: #b4a186; text-decoration: none; outline: 0; }
-	a:hover, a:visited:hover, a.on { color: #b4a186; }
+	a:hover, a:visited:hover, a.on { color: #fff; }
 	p a, p a:visited { line-height: inherit; }
 	
 	#fqSection a, #fqSection a:focus, a:visited {
